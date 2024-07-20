@@ -8,5 +8,5 @@ app.get('/hello', (req, res, next) => {
 });
 
 app.listen(8080, () => {
-    console.log('app is running');
+    console.log('app is running now');
 })
