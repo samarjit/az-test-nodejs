@@ -4,7 +4,7 @@ import express from 'express';
 const app = express();
 app.use('/', express.static('public'));
 app.get('/hello', (req, res, next) => {
-    res.json({hello: 'world'});
+    res.json({hello: 'world2'});
 });
 
 app.listen(8080, () => {
